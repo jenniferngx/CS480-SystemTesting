@@ -16,7 +16,7 @@ public class FirstSeleniumTest {
         WebDriver browser = new SafariDriver();
 
         // visit a page
-        browser.get("http://localhost:8080");
+        browser.get("http://localhost:8080"); 
 
         // find an HTML element in the page
         WebElement welcomeHeader = browser.findElement(By.tagName("h1"));
